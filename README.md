@@ -16,7 +16,6 @@ Abaixo está a estrutura do repositório, dividida em diferentes diretórios:
 
 ```bash
 ├── projetos-academicos/
-│   ├── AMAZON - JAVA/
 │   ├── POO - JS/
 │   └── PORTFOLIO - REACT/
 ├── projetos-pessoais/
