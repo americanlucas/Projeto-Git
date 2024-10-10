@@ -1,0 +1,392 @@
+:root {
+     --font-titulo: "Climate Crisis", sans-serif;
+     --font-secoes: "Orbitron", sans-serif;
+}
+
+body{
+     font-family: "Climate Crisis", sans-serif;
+     background-color: #fffefe;
+     margin: 0%;
+     padding: 0%;
+
+}
+
+header {
+     margin: 0%;
+     padding: 0%;
+}
+
+.cabecalho {
+     background-color: #ffffff;
+     display: flex;
+     flex-direction: row;
+     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.1);
+     align-items: center;
+}
+
+.sidebar {
+     position: fixed;
+     top: 0;
+     right: 0;
+     height: 100vh;
+     width: 250px;
+     z-index: 999;
+     background-color: #ffffff75;
+     backdrop-filter: blur(10px);
+     box-shadow: 0px 0px 7px rgb(0, 0, 0, 0.3) ;
+     display: none;
+     flex-direction: column;
+     align-items: flex-start;
+     justify-content: flex-start;
+}
+
+.sidebar .topicos_cabecalho {
+     margin: 30px 0px 10px 20px;
+}
+
+.sidebar span {
+     margin: 10px 3px;
+}
+
+.menu_icon {
+     display: none;
+}
+
+.titulo_cabecalho {
+     font-size: 24px;
+     color: black;
+     text-decoration: none;
+     margin: 12px 10px 12px 5px;
+     padding-left: 40px;
+}
+
+.titulo_cabecalho:hover {
+     color: rgb(58, 158, 212);
+}
+
+.esconder_topicos {
+     padding-left: 12rem;
+}
+
+.topicos_cabecalho {
+     display: inline-block;
+     margin: 25px 15px;
+     text-decoration: none;
+     color: black;
+     font-size: 20px;
+}
+
+.topicos_cabecalho:hover {
+     color: rgb(58, 158, 212);
+}
+
+.icons {
+     padding-left: 16rem;
+}
+
+.material-symbols-outlined {
+     display: inline-block;
+     text-decoration: none;
+     justify-content: center;
+     font-size: 32px;
+     color: #000000;
+     font-weight: 600;
+     margin-left: 20px;
+}
+
+.material-symbols-outlined:hover {
+     color: rgb(58, 158, 212);
+}
+
+.titulo_secao{
+     font-family: "Orbitron", sans-serif;
+     font-size: 38px;
+     font-weight: bold;
+     display: flex;
+     margin: 24px;
+     padding: auto;
+     justify-content: center;
+}
+
+.conjunto_secao {
+     display: flex;
+     flex-direction: row;
+     text-align: center;
+     flex-wrap: wrap;
+}
+
+.click_produto {
+     text-decoration: none;
+     color: black;
+     font-family: "Orbitron", sans-serif;
+     font-weight: bold;
+}
+
+.imagens_produtos {
+     display: flex;     
+     width: 400px;
+     height: 400px;
+     margin: 10px 50px;
+     border-radius: 16px;
+}
+
+.imagens_produtos:hover {
+     box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.8);
+}
+
+.btn {
+     text-decoration: none;   
+     cursor: default;
+}
+
+.btn_secao {
+     display: flex;
+     position: relative;
+     margin: auto;
+     text-align: center;
+     color: rgb(255, 255, 255);
+     border: none;
+     background-color: rgb(0, 0, 0);
+     padding: 16px;
+     font-family:var(--font-secoes);
+     font-size: 16px;
+     margin-top: 40px;
+     margin-bottom: 80px;
+}
+
+.btn_secao:hover {
+     background-color: rgba(37, 18, 18, 0.9);
+     cursor: pointer;
+}
+
+.banner {
+     display: flex;
+     flex-wrap: wrap;
+}
+
+.banner_imagem {
+     margin: 10px 0px 0px 40px;
+     width: 650px;
+     height: 600px;
+}
+
+.banner_texto {
+     display: inline-block;
+     flex-wrap: wrap;
+     text-align: center;
+     padding: 180px;
+     margin: 10px 0px 0px 0px;
+     color: rgb(15, 108, 207);
+     background-color: rgb(6, 6, 45) ;
+}
+
+.banner_submit {
+     display: flex;
+     margin-top: 32px;
+     justify-content: center; 
+     
+}
+
+.banner_box {
+     display: flex;
+     border: none;
+     padding: 12px 15px;
+     outline: none;
+     flex: 1;
+     margin-top: 10px;
+     font-family: var(--font-secoes);
+}
+
+.banner_button {
+     margin-top: 10px;
+     text-align: center;
+     border: none;
+     padding: 15px 20px;
+     color: #000000;
+     background-color: rgb(63, 140, 222);
+     font-family: var(--font-titulo);
+     cursor: pointer;
+}
+
+.banner_button:hover {
+     color: #ffffff;
+     background-color: rgb(0, 0, 0);
+}
+
+.footer {
+     display: flex;
+     font-family: var(--font-secoes);
+     justify-content: space-around;
+     background: linear-gradient(#fffefe 5%, #52daec 95%);
+     font-weight: bold;
+}
+
+.footer ul {
+     list-style-type: none;
+     padding-left: 0;
+}
+
+.footer li {
+     padding-bottom: 10px;
+}
+
+.footer a {
+     text-decoration: none;
+     color: #000000;
+     font-size: 20px;
+}
+
+.footer a:hover {
+     color: rgb(117, 13, 137);
+}
+
+.footer_kwen {
+     width: 300px;
+}
+
+.footer_kwen p {
+     width: 270px;
+     font-weight: 600;
+     font-size: 20px;
+}
+
+.footer_socials ul {
+     display: flex;
+}
+
+.credits {
+     background-color: #52daec;
+     display: flex;
+     font-size: 16px;
+     font-family: var(--font-secoes);
+     justify-content: center;
+}
+
+.credits a {
+     color: #000000;
+     text-decoration: none;
+}
+
+.credits a:hover {
+     color: rgb(117, 13, 137);
+     text-decoration: wavy;
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+     html, body {
+          overflow-x: hidden;
+        }
+        body {
+          position: relative
+     }
+     .esconder_topicos {
+          display: none;
+     }
+     .conjunto_secao {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+     }
+ 
+     .click_produto {
+         flex: 1 1 calc(50% - 40px);
+         
+     }
+     
+     .footer {
+          display: flex;
+          flex-wrap: wrap;
+     }
+
+     .footer_kwen {
+          margin-left: 60px;
+     }
+ 
+     .credits {
+          text-align: center;
+     }
+ }
+ 
+ @media (max-width: 450px) {
+     
+     .cabecalho {
+         flex-direction: row;
+     }
+
+     .cabecalho a{
+          margin: 20px 10px ;
+     }
+
+     .cabecalho h3 {
+          justify-content: flex-start;
+          margin-left: 24px;
+     }
+
+     .titulo_cabecalho {
+          align-self: flex-start;
+          justify-content: flex-start;
+     }
+     .sidebar {
+          width: 100%;
+          transition: 0.5s;
+     }
+
+     .icons {
+          display: flex;
+          padding-left: 0;
+     }
+
+     .menu_icon {
+          display: flex;
+     }
+ 
+     .topicos_cabecalho {
+         display: flex;
+     }
+
+     .titulo_secao {
+          display: flex;
+          text-align: center;
+          margin: 32px;
+     }
+ 
+     nav li {
+         margin: 10px 0;
+     }
+ 
+     .imagens_produtos {
+          justify-content: center;
+          width: 120px;
+          height: 120px;
+          margin: auto;
+     }
+
+     .banner_imagem {
+          display: flex;
+          margin: auto;
+          margin-bottom: 0px;
+          height: 400px;
+     }
+
+     .banner_texto{
+          display: flex;
+          padding: auto;
+          margin: auto;
+          justify-content: center;
+     }
+
+     .banner {
+          display: flex;
+          justify-content: center;
+     }
+ 
+     .newsletter input[type="text"] {
+         width: calc(100% - 110px);
+     }
+
+ }

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1990&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="css/style.css">
+     <link rel="stylesheet" href="css/clothing.css">
+     <title>KWEN STORE - CLOTHING</title>
+</head>
+<body>
+     <header >
+          <nav class="cabecalho">
+               <a href="index.html" class="titulo_cabecalho"><h3>KWEN STORE</h3></a>
+               <div class="esconder_topicos">
+                    <a href="clothing.html" class="topicos_cabecalho">CLOTHING</a>
+                    <a href="#" class="topicos_cabecalho">ACESSORIES</a>
+                    <a href="#" class="topicos_cabecalho">CONTACT</a>
+                    
+               </div>
+               
+               <span class="icons">
+                    <a href="#" class="material-symbols-outlined">shopping_bag</a>
+                    <div class="menu_icon">
+                         <a onclick=showSidebar() href="#" class="material-symbols-outlined">menu</a>
+                    </div>
+               </span>
+          </nav>
+          
+          <nav class="sidebar">
+               <span>
+                    <a onclick=hideSidebar() href="#" class="material-symbols-outlined">close</a>
+               </span>
+               <div>
+                    <a href="#" class="topicos_cabecalho">MAIS VENDIDOS</a>
+                    <a href="#" class="topicos_cabecalho">LANÇAMENTOS</a>
+                    <a href="clothing.html" class="topicos_cabecalho">CLOTHING</a>
+                    <a href="#" class="topicos_cabecalho">ACESSORIES</a>
+                    <a href="#" class="topicos_cabecalho">CONTACT</a>
+                    
+               </div>
+               
+               
+          </nav>
+     </header>
+
+     <section class="mainpage">
+          <div class="sidemenu">
+               <nav>
+                    <a class="sidemenu_titulo" href="">COLLECTIONS</a>
+                    <ul>
+                         <li><a class="sidemenu_link" href="">GERAL</a></li>
+                         <li><a class="sidemenu_link" href="">LANÇAMENTOS</a></li>
+                         <li><a class="sidemenu_link" href="">MAIS VENDIDOS</a></li>
+                         <li><a class="sidemenu_link" href="">CAMISETAS</a></li>
+                         <li><a class="sidemenu_link" href="">HOODIES</a></li>
+                         <li><a class="sidemenu_link" href="">CALÇAS</a></li>
+                         <li><a class="sidemenu_link" href="">BERMUDAS</a></li>
+                    </ul>
+               </nav>
+          </div>
+          <div class="conjunto_secao">
+               <a  href="#" class="click_produto">
+                    <div>
+                         <img class="imagens_produtos" src="IMG/lançamentos/1st.jpg" alt="">                 
+                         <h2>PRODUCT 01</h2>
+                         <p>R$ 50,00</p>
+                    </div>
+               </a>
+
+               <a href="#" class="click_produto">
+                    <div>
+                         <img class="imagens_produtos" src="IMG/lançamentos/2nd.jpg" alt="">
+                         <h2>PRODUCT 02</h2>
+                         <p>R$ 95,00</p>
+                    </div> 
+               </a>
+
+               <a href="#" class="click_produto">
+                    <div>
+                         <img class="imagens_produtos" src="IMG/lançamentos/3rd.jpg" alt=""> 
+                         <h2>PRODUCT 03</h2>
+                         <p>R$ 40,00</p>
+                    </div> 
+               </a>
+               <a  href="#" class="click_produto">
+                    <div>
+                         <img class="imagens_produtos" src="IMG/mais vendidos/6th.jpg" alt="">                 
+                         <h2>PRODUCT 04</h2>
+                         <p>R$ 50,00</p>
+                    </div>
+               </a>
+
+               <a href="#" class="click_produto">
+                    <div>
+                         <img class="imagens_produtos" src="IMG/mais vendidos/9th.jpg" alt="">
+                         <h2>PRODUCT 05</h2>
+                         <p>R$ 95,00</p>
+                    </div> 
+               </a>
+
+               <a href="#" class="click_produto">
+                    <div>
+                         <img class="imagens_produtos" src="IMG/mais vendidos/7th.jpg" alt=""> 
+                         <h2>PRODUCT 06</h2>
+                         <p>R$ 40,00</p>
+                    </div> 
+               </a>
+               <a  href="#" class="click_produto">
+                    <div>
+                         <img class="imagens_produtos" src="IMG/mais vendidos/5th.jpg" alt="">                 
+                         <h2>PRODUCT 07</h2>
+                         <p>R$ 50,00</p>
+                    </div>
+               </a>
+
+               <a href="#" class="click_produto">
+                    <div>
+                         <img class="imagens_produtos" src="IMG/mais vendidos/2nd.jpg" alt="">
+                         <h2>PRODUCT 08</h2>
+                         <p>R$ 95,00</p>
+                    </div> 
+               </a>
+
+               <a href="#" class="click_produto">
+                    <div>
+                         <img class="imagens_produtos" src="IMG/mais vendidos/4th.jpg" alt=""> 
+                         <h2>PRODUCT 09</h2>
+                         <p>R$ 40,00</p>
+                    </div> 
+               </a>
+          </div>
+     </section>
+
+     
+
+     <script>
+          function showSidebar () {
+               const sidebar = document.querySelector('.sidebar')
+               sidebar.style.display = 'flex'
+          }
+          function hideSidebar() {
+               const sidebar = document.querySelector('.sidebar')
+               sidebar.style.display = 'none'
+          }
+     </script>
+</body>
+</html>
